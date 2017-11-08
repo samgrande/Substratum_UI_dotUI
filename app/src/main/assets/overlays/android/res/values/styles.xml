@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material.Light.LightStatusBar">
+        <item name="android:statusBarColor">@android:color/background_light</item>
+        <item name="android:navigationBarColor">@*android:color/material_grey_50</item>
+    </style>
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material.Light.LightStatusBar">
+        <item name="android:colorPrimary">#00000000</item>
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:navigationBarColor">@*android:color/material_grey_50</item>
+    </style>
+    <style name="Theme.Material.Settings.NoActionBar" parent="@android:style/Theme.Material.Light.NoActionBar"><!-- Fingerprint settings-->
+        <item name="android:statusBarColor">@android:color/background_light</item>
+        <item name="android:navigationBarColor">@*android:color/material_grey_50</item>
+    </style>
+    <style name="Theme.Material.Light.LightStatusBar" parent="@android:style/Theme.Material.Light">
+        <item name="android:navigationBarColor">@*android:color/material_grey_50</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Theme.Material.Settings.DialogWhenLarge" parent="@android:style/Theme.Material.Light.DialogWhenLarge">
+        <item name="android:navigationBarColor">@*android:color/material_grey_50</item>
+    </style>
+</resources>
